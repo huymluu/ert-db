@@ -4,7 +4,7 @@ This is dockerized MySQL server for ERT database.
 
 Please see `docker-compose.yml` file for server configuration, i.e. port, database, user...
 
-Here the database server run only port 6000
+Here the database server run on port 6000
 
 ## Commands
 
