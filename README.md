@@ -20,6 +20,9 @@ For testing, you may want to insert some test data (users, clients)
 docker exec -i ertmysql mysql -uert -pert <./create_test_data.sql
 ```
 
+There are some predefined account: alice, bob, charlie...  
+All with password: 123
+
 ### Cleanup server
 ```
 docker-compose down
