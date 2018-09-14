@@ -14,12 +14,8 @@ docker-compose up -d
 ```
 Note: data is stored in `/var/lib/mysql/` in docker container, which is mapped into host machine at `./data/`. 
 
-### Create database tables
-```
-docker exec -i ertmysql mysql -uert -pert <./create_schema.sql
-```
 ### Insert some test data
-You may want to insert some test data (users, clients)
+For testing, you may want to insert some test data (users, clients)
 ```
 docker exec -i ertmysql mysql -uert -pert <./create_test_data.sql
 ```

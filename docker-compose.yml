@@ -13,3 +13,4 @@ services:
       - MYSQL_PASSWORD=ert
     volumes:
       - ./data/:/var/lib/mysql
+      - ./startup_scripts/:/docker-entrypoint-initdb.d
